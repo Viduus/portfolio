@@ -298,7 +298,17 @@ text-align:center;
 
 .contact-card h2{
 color:#c2365c;
-      font-size:2rem;
+font-size:2rem;
+}
+
+.contact-card a{
+color:#c2365c;
+text-decoration:none;
+font-weight:600;
+}
+
+.contact-card a:hover{
+color:#e14d78;
 }
 
 footer{

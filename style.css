@@ -1,26 +1,21 @@
 body{
 margin:0;
 font-family:Arial,sans-serif;
-
-```
 background:
-    radial-gradient(
-        circle at 25% 15%,
-        rgba(194,54,92,0.18) 0%,
-        rgba(194,54,92,0.08) 18%,
-        transparent 40%
-    ),
-    linear-gradient(
-        180deg,
-        #1d1d22 0%,
-        #141418 50%,
-        #0b0b0d 100%
-    );
-
+radial-gradient(
+circle at 25% 15%,
+rgba(194,54,92,0.18) 0%,
+rgba(194,54,92,0.08) 18%,
+transparent 40%
+),
+linear-gradient(
+180deg,
+#1d1d22 0%,
+#141418 50%,
+#0b0b0d 100%
+);
 color:#f4f4f4;
 line-height:1.7;
-```
-
 }
 
 .hero{
@@ -37,27 +32,19 @@ position:relative;
 .hero-content::before{
 content:"";
 position:absolute;
-
-```
 width:500px;
 height:500px;
-
 left:50%;
 top:-40px;
-
 transform:translateX(-50%);
-
 background:radial-gradient(
-    circle,
-    rgba(194,54,92,.22) 0%,
-    rgba(194,54,92,.12) 35%,
-    transparent 70%
+circle,
+rgba(194,54,92,.22) 0%,
+rgba(194,54,92,.12) 35%,
+transparent 70%
 );
-
 pointer-events:none;
 z-index:0;
-```
-
 }
 
 .hero-content > *{
@@ -127,13 +114,9 @@ height:240px;
 border-radius:50%;
 object-fit:cover;
 border:4px solid #c2365c;
-
-```
 box-shadow:
-    0 0 25px rgba(194,54,92,.35),
-    0 0 60px rgba(194,54,92,.18);
-```
-
+0 0 25px rgba(194,54,92,.35),
+0 0 60px rgba(194,54,92,.18);
 }
 
 .skills-grid{
@@ -147,14 +130,8 @@ background:rgba(255,255,255,.03);
 padding:25px;
 border-left:4px solid #c2365c;
 border-radius:12px;
-
-```
-box-shadow:
-    0 8px 24px rgba(0,0,0,.35);
-
+box-shadow:0 8px 24px rgba(0,0,0,.35);
 backdrop-filter:blur(4px);
-```
-
 }
 
 .skills-box h3{
@@ -167,12 +144,7 @@ video{
 width:100%;
 margin-top:15px;
 border-radius:12px;
-
-```
-box-shadow:
-    0 8px 24px rgba(0,0,0,.4);
-```
-
+box-shadow:0 8px 24px rgba(0,0,0,.4);
 }
 
 .project-grid{
@@ -185,43 +157,25 @@ margin-top:20px;
 .project-card{
 flex:1;
 min-width:320px;
-
-```
 background:rgba(255,255,255,.03);
-
 padding:20px;
-
 border-radius:12px;
 border-left:3px solid #c2365c;
-
-box-shadow:
-    0 8px 24px rgba(0,0,0,.35);
-
+box-shadow:0 8px 24px rgba(0,0,0,.35);
 transition:.25s ease;
-```
-
 }
 
 .project-card:hover{
 transform:translateY(-6px);
-
-```
-box-shadow:
-    0 12px 30px rgba(0,0,0,.45);
-```
-
+box-shadow:0 12px 30px rgba(0,0,0,.45);
 }
 
 .project-card img{
 width:100%;
 height:220px;
 object-fit:cover;
-
-```
 border-radius:8px;
 margin-bottom:15px;
-```
-
 }
 
 .project-card h3{
@@ -248,7 +202,6 @@ text-align:center;
 
 @media (max-width:768px){
 
-```
 .hero{
     padding:70px 20px;
 }
@@ -270,6 +223,5 @@ text-align:center;
     width:350px;
     height:350px;
 }
-```
 
 }

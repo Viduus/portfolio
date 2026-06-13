@@ -348,3 +348,11 @@ justify-content:center;
 .contact-card h2{
     color:#c2365c;
 }
+@media (max-width:900px){
+
+    .hero-container{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+}

@@ -50,6 +50,7 @@ a{color:#d9a3af}
 
 .project-card h3 {
     color: #ffffff;
+    font-size: 1.3rem;
     margin-bottom: 10px;
 }
 
@@ -64,6 +65,7 @@ a{color:#d9a3af}
 
 #contact {
     text-align: center;
+    margin-top: 40px;
 }
 .project-card img {
     width: 100%;

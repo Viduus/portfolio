@@ -65,3 +65,10 @@ a{color:#d9a3af}
 #contact {
     text-align: center;
 }
+.project-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}

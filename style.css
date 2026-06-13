@@ -1,56 +1,11 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #181818;
-    color: #f5f5f5;
-    margin: 0;
-    line-height: 1.6;
-}
-
-.hero {
-    text-align: center;
-    padding: 80px 20px;
-    background-color: #222;
-}
-
-h1 {
-    margin-bottom: 10px;
-}
-
-h2 {
-    color: #7a2f3e;
-    font-weight: normal;
-}
-
-h3 {
-    color: #7a2f3e;
-}
-
-section {
-    max-width: 900px;
-    margin: auto;
-    padding: 40px 20px;
-}
-
-.button {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 18px;
-    background: #7a2f3e;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-}
-
-ul {
-    columns: 2;
-}
-
-a {
-    color: #c77d8d;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #111;
-}
+body{margin:0;font-family:Arial,sans-serif;background:#171717;color:#f4f4f4;line-height:1.7}
+.hero{padding:90px 20px;text-align:center;background:#222}
+.hero h1{font-size:3rem;margin-bottom:10px}
+.tagline{color:#8b2f43;font-weight:bold}
+.buttons a{display:inline-block;margin:8px;padding:12px 18px;background:#8b2f43;color:#fff;text-decoration:none;border-radius:4px}
+section{max-width:950px;margin:auto;padding:40px 20px}
+h2{color:#8b2f43}
+.skills{background:#242424;padding:15px;border-left:4px solid #8b2f43}
+video{margin-top:10px}
+footer{text-align:center;padding:20px;background:#111}
+a{color:#d9a3af}

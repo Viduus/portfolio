@@ -341,3 +341,10 @@ display:flex;
 justify-content:center;
 }
 }
+#projects h2{
+    color:#c2365c;
+    margin-bottom:30px;
+}
+.contact-card h2{
+    color:#c2365c;
+}

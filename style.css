@@ -74,3 +74,22 @@ a{color:#d9a3af}
     border-radius: 6px;
     margin-bottom: 15px;
 }
+.skills-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skills-box {
+    flex: 1;
+    min-width: 300px;
+    background: #242424;
+    padding: 20px;
+    border-left: 4px solid #8b2f43;
+    border-radius: 4px;
+}
+
+.skills-box h3 {
+    margin-top: 0;
+    color: #ffffff;
+}
